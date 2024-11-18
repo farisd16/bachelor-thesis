@@ -1,8 +1,4 @@
-#import "/utils/todo.typ": TODO
-
 = Abstract
-#TODO[ // Remove this block
-  *Abstract*
-  - Short (1/3-1/2 page) summary of the project 
-  - It is fine to repeat yourself here 
-]
+In modern development workflows, the seamless integration of UML diagrams into documentation, issues, and pull requests on Git hosting services is crucial for clarity and collaboration. Apollon is a web-based UML modeling editor used to create such diagrams. It lacks version management and doesn't provide the possibility to export live embeddings of diagrams.
+
+This project aims to significantly enhance Apollon by implementing efficient embedding capabilities, allowing developers to embed their UML diagrams with live updates in issues, pull requests, and more. When users make changes to diagrams in Apollon, the system will automatically reflect these changes in their embedded versions, eliminating the need for manual updates. We will introduce version management, which will enable users to capture new versions, preview changes, and revert to previous versions. A new structured and readable textual format for diagrams, integrated with VSCode, will facilitate developers in versioning their UML diagrams with Git for seamless documentation integration. These enhancements will improve Apollon's usability, encouraging its adoption in development workflows.

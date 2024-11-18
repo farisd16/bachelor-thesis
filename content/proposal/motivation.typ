@@ -1,12 +1,10 @@
-#import "/utils/todo.typ": TODO
-
-
 = Motivation
-#TODO[ // Remove this block
-  *Proposal Motivation*
-  - Outline why it is (scientifically) important to solve the problem
-  - Again use the actors to present your solution, but don't be to specific
-  - Do not repeat the problem, instead focus on the positive aspects when the solution to the problem is available
-  - Be visionary! 
-  - Optional: motivate with existing research, previous work 
-]
+Tackling the mentioned problems is beneficial, as it could significantly improve the usability of Apollon, motivating students and developers to use the tool in return.
+
+Enabling developers to embed their Apollon diagrams with live updates in issues and pull requests would motivate them to do so, displacing the cumbersome process of maintaining an exported image of the diagram. For instance, GitHub already supports the integration of Mermaid #footnote[https://mermaid.js.org/intro/], a JavaScript based diagramming and charting tool for creating and modifying diagrams. #footnote[https://github.blog/2022-02-14-include-diagrams-markdown-files-mermaid/] However, Mermaid supports a much smaller subset of UML diagrams compared to Apollon. Integrating PlantUML #footnote[https://plantuml.com/] in GitLab is also possible, but just as Mermaid, it doesn't provide a visual editor like Apollon. #footnote[https://docs.gitlab.com/ee/administration/integration/plantuml.html]
+
+Considering that UML modeling is a collaborative activity and plays an important role in the software evolution of model-driven development, version management of diagrams is crucial for projects that utilize Apollon for creating and maintaining UML models @software-engineering @model-driven-development. Specifically, implementing version management for Apollon would encourage the feedback loop and dissolve the need to create a new file for each version of a diagram. Hence using Apollon as part of model-driven development would become easier.
+
+Textual notations of UML are accessible for visually impaired people and allow a more compact presentation @uml-textual-representation. A structured textual format, which describes the layout of a diagram, would be more suitable for versioning with Git. This will motivate developers to use Apollon for UML diagrams in documentation, and students to use them for their thesis. Also, through such a syntax, reviewers could understand the diagram better, and developers could quickly create diagrams without having to deal with a GUI. Another advantage is that such a format is more convenient and efficient as input for Large Language Models (LLMs).
+
+Improving Apollon in these regards is a big step in making it a viable tool for the industry, as modern textual UML notations either lack a state-of-the-art editing environment, diagram types or export/import options @uml-textual-representation.

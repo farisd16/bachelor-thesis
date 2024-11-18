@@ -1,11 +1,4 @@
-#import "/utils/todo.typ": TODO
-
-
 = Introduction
-#TODO[ // Remove this block
-  *Introduction*
-  - Introduce the reader to the general setting (No Problem description yet)
-  - What is the environment?
-  - What are the tools in use?
-  - (Not more than 1/2 a page)
-]
+The Unified Modeling Language (UML) has become one of the most widely used standards for specifying and documenting information systems @uml-introduction. Developers use UML diagrams to visualize the structure or behavior of a system, playing a crucial role in software engineering workflows. Most importantly, UML diagrams help developers share a common understanding of the ongoing work @software-engineering. Such diagrams are therefore useful in issues, pull requests and documentation.
+
+Apollon #footnote[https://github.com/ls1intum/Apollon] is a web-based UML editor, developed at TUM, that allows users to create, edit, and share UML diagrams. It is possible to integrate Apollon with other JavaScript applications, such as the interactive learning platform Artemis, but also used through the standalone version @interactive-learning.
