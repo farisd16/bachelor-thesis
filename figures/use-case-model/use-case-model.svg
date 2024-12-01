@@ -1,0 +1,74 @@
+<svg width="841" height="821" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#ffffff"><defs><style>
+  text {
+    fill: #212529;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+  }
+
+  marker, text {
+    fill-opacity: 1;
+  }
+
+  * {
+    overflow: visible;
+  }
+</style></defs><svg x="15" y="305" width="80" height="140" class="Developer" fill="#ffffff"><g><rect width="100%" height="100%" fill="none"></rect><g stroke="black" stroke-width="2"><circle cx="40" cy="25" r="15" stroke="black" fill="white" class="sc-iGgWBj fYmGgq"></circle><line x1="40" y1="40" x2="40" y2="80" stroke="black" class="sc-imWYAI kESMEa"></line><line x1="10" y1="50" x2="70" y2="50" stroke="black" class="sc-imWYAI kESMEa"></line><line x1="40" y1="80" x2="10" y2="110" stroke="black" class="sc-imWYAI kESMEa"></line><line x1="40" y1="80" x2="70" y2="110" stroke="black" class="sc-imWYAI kESMEa"></line></g><text x="40" y="130" dominant-baseline="middle" text-anchor="middle" font-weight="bold" pointer-events="none">Developer</text></g></svg><svg x="165" y="15" width="660" height="350" class="Standalone Apollon Editor" fill="#ffffff"><g><rect width="100%" height="100%" stroke="black" fill="white" class="sc-fqkvVR uHYUy"></rect><text x="50%" y="16" dominant-baseline="middle" text-anchor="middle" font-weight="bold" pointer-events="none">Standalone Apollon Editor</text></g></svg><svg x="215" y="45" width="170" height="80" class="Embed Diagram" fill="#ffffff"><g><ellipse cx="50%" cy="50%" rx="50%" ry="50%" stroke="black" fill="white" class="sc-kAyceB ldFMTf"></ellipse><text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-weight="bold" pointer-events="none">Embed Diagram</text></g></svg><svg x="185" y="255" width="230" height="80" class="Address Diagram Feedback" fill="#ffffff"><g><ellipse cx="50%" cy="50%" rx="50%" ry="50%" stroke="black" fill="white" class="sc-kAyceB ldFMTf"></ellipse><text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-weight="bold" pointer-events="none">Address Diagram Feedback</text></g></svg><svg x="515" y="145" width="290" height="80" class="Iterate with Version Management" fill="#ffffff"><g><ellipse cx="50%" cy="50%" rx="50%" ry="50%" stroke="black" fill="white" class="sc-kAyceB ldFMTf"></ellipse><text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-weight="bold" pointer-events="none">Iterate with Version Management</text></g></svg><svg x="165" y="385" width="660" height="420" class="Apollon VSCode Extension" fill="#ffffff"><g><rect width="100%" height="100%" stroke="black" fill="white" class="sc-fqkvVR uHYUy"></rect><text x="50%" y="16" dominant-baseline="middle" text-anchor="middle" font-weight="bold" pointer-events="none">Apollon VSCode Extension</text></g></svg><svg x="565" y="425" width="230" height="60" class="Model Diagram" fill="#ffffff"><g><ellipse cx="50%" cy="50%" rx="50%" ry="50%" stroke="black" fill="white" class="sc-kAyceB ldFMTf"></ellipse><text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-weight="bold" pointer-events="none">Model Diagram</text></g></svg><svg x="565" y="705" width="230" height="60" class="Export Diagram" fill="#ffffff"><g><ellipse cx="50%" cy="50%" rx="50%" ry="50%" stroke="black" fill="white" class="sc-kAyceB ldFMTf"></ellipse><text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-weight="bold" pointer-events="none">Export Diagram</text></g></svg><svg x="565" y="605" width="230" height="60" class="Save Diagram" fill="#ffffff"><g><ellipse cx="50%" cy="50%" rx="50%" ry="50%" stroke="black" fill="white" class="sc-kAyceB ldFMTf"></ellipse><text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-weight="bold" pointer-events="none">Save Diagram</text></g></svg><svg x="185" y="545" width="230" height="80" class="Maintain Diagram for Docs" fill="#ffffff"><g><ellipse cx="50%" cy="50%" rx="50%" ry="50%" stroke="black" fill="white" class="sc-kAyceB ldFMTf"></ellipse><text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-weight="bold" pointer-events="none">Maintain Diagram for Docs</text></g></svg><svg x="565" y="515" width="230" height="60" class="Draft Diagram" fill="#ffffff"><g><ellipse cx="50%" cy="50%" rx="50%" ry="50%" stroke="black" fill="white" class="sc-kAyceB ldFMTf"></ellipse><text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-weight="bold" pointer-events="none">Draft Diagram</text></g></svg><svg x="300" y="125" width="1" height="130" class="" fill="#ffffff"><g><g><marker id="marker-eed46881-b004-4eea-9d9a-0f062c792dcd" viewBox="0 0 30 30" markerWidth="22" markerHeight="30" refX="30" refY="15" orient="auto" markerUnits="strokeWidth"><path d="M0,29 L30,15 L0,1" stroke="black" fill="none" class="sc-gEvEer bFSwyf"></path></marker><path d="
+          M 0 0 L 0 25
+          M 0 105 L 0 130
+        " stroke-dasharray="7" marker-end="url(#marker-eed46881-b004-4eea-9d9a-0f062c792dcd)" stroke="black" fill="white" class="sc-gEvEer fkqzOi"></path></g><path id="textpath-eed46881-b004-4eea-9d9a-0f062c792dcd" d="
+          M 0 25
+          L 0 105
+        "></path><text dominant-baseline="middle" text-anchor="middle" font-weight="bold" pointer-events="none"><textPath xlink:href="#textpath-eed46881-b004-4eea-9d9a-0f062c792dcd" startOffset="50%">«include»</textPath></text></g></svg><svg x="385" y="85" width="130" height="100" class="" fill="#ffffff"><g><g><marker id="marker-90f76be2-8536-4cca-8758-b53b55dd7218" viewBox="0 0 30 30" markerWidth="22" markerHeight="30" refX="30" refY="15" orient="auto" markerUnits="strokeWidth"><path d="M0,29 L30,15 L0,1" stroke="black" fill="none" class="sc-gEvEer bFSwyf"></path></marker><path d="
+          M 130 100 L 96.70495956418401 74.3884304339877
+          M 33.29504043581599 25.611569566012307 L 0 0
+        " stroke-dasharray="7" marker-end="url(#marker-90f76be2-8536-4cca-8758-b53b55dd7218)" stroke="black" fill="white" class="sc-gEvEer fkqzOi"></path></g><path id="textpath-90f76be2-8536-4cca-8758-b53b55dd7218" d="
+          M 96.70495956418401 74.3884304339877
+          L 33.29504043581599 25.611569566012307
+        "></path><text dominant-baseline="middle" text-anchor="middle" font-weight="bold" pointer-events="none" transform="
+              translate(65, 50)
+              rotate(180)
+              translate(-65, -50)
+            "><textPath xlink:href="#textpath-90f76be2-8536-4cca-8758-b53b55dd7218" startOffset="50%">«extend»</textPath></text></g></svg><svg x="415" y="185" width="100" height="110" class="" fill="#ffffff"><g><g><marker id="marker-dbf14718-2d61-4fc7-920c-01d82cb71f67" viewBox="0 0 30 30" markerWidth="22" markerHeight="30" refX="30" refY="15" orient="auto" markerUnits="strokeWidth"><path d="M0,29 L30,15 L0,1" stroke="black" fill="none" class="sc-gEvEer bFSwyf"></path></marker><path d="
+          M 100 0 L 76.9069117598525 25.402397064162248
+          M 23.0930882401475 84.59760293583776 L 0 110
+        " stroke-dasharray="7" marker-end="url(#marker-dbf14718-2d61-4fc7-920c-01d82cb71f67)" stroke="black" fill="white" class="sc-gEvEer fkqzOi"></path></g><path id="textpath-dbf14718-2d61-4fc7-920c-01d82cb71f67" d="
+          M 76.9069117598525 25.402397064162248
+          L 23.0930882401475 84.59760293583776
+        "></path><text dominant-baseline="middle" text-anchor="middle" font-weight="bold" pointer-events="none" transform="
+              translate(50, 55)
+              rotate(180)
+              translate(-50, -55)
+            "><textPath xlink:href="#textpath-dbf14718-2d61-4fc7-920c-01d82cb71f67" startOffset="50%">«extend»</textPath></text></g></svg><svg x="95" y="295" width="90" height="80" class="" fill="#ffffff"><g><path id="textpath-659f67e5-44f5-4596-872c-34374d77b3e9" d="
+        M 0 70
+        L 90 -10
+    "></path><text dominant-baseline="middle" text-anchor="middle" font-weight="bold" pointer-events="none" dy="20px"><textPath xlink:href="#textpath-659f67e5-44f5-4596-872c-34374d77b3e9" startOffset="50%"></textPath></text><polyline points="0 80,90 0" stroke-width="1" stroke="black" fill="none" class="sc-aXZVg eMElBf"></polyline></g></svg><svg x="95" y="85" width="120" height="290" class="" fill="#ffffff"><g><path id="textpath-93613953-b7c9-4827-9e4e-eaeaf2bb7e06" d="
+        M 0 280
+        L 120 -10
+    "></path><text dominant-baseline="middle" text-anchor="middle" font-weight="bold" pointer-events="none" dy="20px"><textPath xlink:href="#textpath-93613953-b7c9-4827-9e4e-eaeaf2bb7e06" startOffset="50%"></textPath></text><polyline points="0 290,120 0" stroke-width="1" stroke="black" fill="none" class="sc-aXZVg eMElBf"></polyline></g></svg><svg x="95" y="375" width="90" height="210" class="" fill="#ffffff"><g><path id="textpath-f5c63080-86cd-425c-8151-63a7478740ca" d="
+        M 0 -10
+        L 90 200
+    "></path><text dominant-baseline="middle" text-anchor="middle" font-weight="bold" pointer-events="none" dy="20px"><textPath xlink:href="#textpath-f5c63080-86cd-425c-8151-63a7478740ca" startOffset="50%"></textPath></text><polyline points="0 0,90 210" stroke-width="1" stroke="black" fill="none" class="sc-aXZVg eMElBf"></polyline></g></svg><svg x="415" y="455" width="150" height="130" class="" fill="#ffffff"><g><g><marker id="marker-fbe47a23-1d56-4f7f-9bed-7b5705d9ef67" viewBox="0 0 30 30" markerWidth="22" markerHeight="30" refX="30" refY="15" orient="auto" markerUnits="strokeWidth"><path d="M0,29 L30,15 L0,1" stroke="black" fill="none" class="sc-gEvEer bFSwyf"></path></marker><path d="
+          M 0 130 L 44.772436688407296 91.19722153671367
+          M 105.2275633115927 38.80277846328633 L 150 0
+        " stroke-dasharray="7" marker-end="url(#marker-fbe47a23-1d56-4f7f-9bed-7b5705d9ef67)" stroke="black" fill="white" class="sc-gEvEer fkqzOi"></path></g><path id="textpath-fbe47a23-1d56-4f7f-9bed-7b5705d9ef67" d="
+          M 44.772436688407296 91.19722153671367
+          L 105.2275633115927 38.80277846328633
+        "></path><text dominant-baseline="middle" text-anchor="middle" font-weight="bold" pointer-events="none"><textPath xlink:href="#textpath-fbe47a23-1d56-4f7f-9bed-7b5705d9ef67" startOffset="50%">«include»</textPath></text></g></svg><svg x="415" y="585" width="150" height="50" class="" fill="#ffffff"><g><g><marker id="marker-77d8e05a-d64c-4eee-ba01-8f5b972edf79" viewBox="0 0 30 30" markerWidth="22" markerHeight="30" refX="30" refY="15" orient="auto" markerUnits="strokeWidth"><path d="M0,29 L30,15 L0,1" stroke="black" fill="none" class="sc-gEvEer bFSwyf"></path></marker><path d="
+          M 0 0 L 37.052668077979455 12.350889359326484
+          M 112.94733192202054 37.64911064067351 L 150 50
+        " stroke-dasharray="7" marker-end="url(#marker-77d8e05a-d64c-4eee-ba01-8f5b972edf79)" stroke="black" fill="white" class="sc-gEvEer fkqzOi"></path></g><path id="textpath-77d8e05a-d64c-4eee-ba01-8f5b972edf79" d="
+          M 37.052668077979455 12.350889359326484
+          L 112.94733192202054 37.64911064067351
+        "></path><text dominant-baseline="middle" text-anchor="middle" font-weight="bold" pointer-events="none"><textPath xlink:href="#textpath-77d8e05a-d64c-4eee-ba01-8f5b972edf79" startOffset="50%">«include»</textPath></text></g></svg><svg x="415" y="585" width="150" height="150" class="" fill="#ffffff"><g><g><marker id="marker-9f1f925d-522c-4120-b3fa-f345fc4119e8" viewBox="0 0 30 30" markerWidth="22" markerHeight="30" refX="30" refY="15" orient="auto" markerUnits="strokeWidth"><path d="M0,29 L30,15 L0,1" stroke="black" fill="none" class="sc-gEvEer bFSwyf"></path></marker><path d="
+          M 0 0 L 46.7157287525381 46.7157287525381
+          M 103.2842712474619 103.2842712474619 L 150 150
+        " stroke-dasharray="7" marker-end="url(#marker-9f1f925d-522c-4120-b3fa-f345fc4119e8)" stroke="black" fill="white" class="sc-gEvEer fkqzOi"></path></g><path id="textpath-9f1f925d-522c-4120-b3fa-f345fc4119e8" d="
+          M 46.7157287525381 46.7157287525381
+          L 103.2842712474619 103.2842712474619
+        "></path><text dominant-baseline="middle" text-anchor="middle" font-weight="bold" pointer-events="none"><textPath xlink:href="#textpath-9f1f925d-522c-4120-b3fa-f345fc4119e8" startOffset="50%">«include»</textPath></text></g></svg><svg x="415" y="545" width="150" height="40" class="" fill="#ffffff"><g><g><marker id="marker-bdb5a25f-ed9c-45fa-9d00-ab2f6dbeae62" viewBox="0 0 30 30" markerWidth="22" markerHeight="30" refX="30" refY="15" orient="auto" markerUnits="strokeWidth"><path d="M0,29 L30,15 L0,1" stroke="black" fill="none" class="sc-gEvEer bFSwyf"></path></marker><path d="
+          M 0 40 L 36.35060241595015 30.306506022413295
+          M 113.64939758404985 9.693493977586707 L 150 0
+        " stroke-dasharray="7" marker-end="url(#marker-bdb5a25f-ed9c-45fa-9d00-ab2f6dbeae62)" stroke="black" fill="white" class="sc-gEvEer fkqzOi"></path></g><path id="textpath-bdb5a25f-ed9c-45fa-9d00-ab2f6dbeae62" d="
+          M 36.35060241595015 30.306506022413295
+          L 113.64939758404985 9.693493977586707
+        "></path><text dominant-baseline="middle" text-anchor="middle" font-weight="bold" pointer-events="none"><textPath xlink:href="#textpath-bdb5a25f-ed9c-45fa-9d00-ab2f6dbeae62" startOffset="50%">«include»</textPath></text></g></svg></svg>

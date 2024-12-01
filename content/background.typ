@@ -5,17 +5,22 @@
   Describe each proven technology / concept shortly that is important to understand your thesis. Point out why it is interesting for your thesis. Make sure to incorporate references to important literature here.
 ]
 
-== e.g. User Feedback
+== Unified Modeling Language (UML)
 #TODO[
-  This section would summarize the concept User Feedback using definitions, historical overviews and pointing out the most important aspects of User Feedback.
+  This section would summarize the concept UML using definitions, historical overviews and pointing out the most important aspects of UML.
 ]
 
-== e.g. Representational State Transfer
+== Apollon
 #TODO[
-  This section would summarize the architectural style Representational State Transfer (REST) using definitions, historical overviews and pointing out the most important aspects of the architecture.
+  This section would summarize Apollon using definitions, historical overviews and pointing out the most important aspects of Apollon.
 ]
 
-== e.g. Scrum
+== GitHub Issues and Pull Requests
 #TODO[
-  This section would summarize the agile method Scrum using definitions, historical overviews and pointing out the most important aspects of Scrum.
+  This section would summarize Apollon using definitions, historical overviews and pointing out the most important aspects of Apollon.
+]
+
+== VSCode Extensions
+#TODO[
+  This section would summarize Apollon using definitions, historical overviews and pointing out the most important aspects of Apollon.
 ]
