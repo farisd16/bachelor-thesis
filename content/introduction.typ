@@ -8,14 +8,27 @@ Apollon #footnote[https://github.com/ls1intum/Apollon] is a web-based UML editor
 == Problem
 Apollon is a feature-rich UML editor, as it supports a great variety of diagram types. However, it lacks efficient embedding capabilities, version management and an IDE integration, which may prevent developers from utilizing it in their workflows. 
 
-*Embedding capabilities*: 
-For example, if a developer wants to embed an Apollon diagram into an issue or pull request, they need to use a PNG export of the diagram. Should the diagram be updated, this won't be reflected on the embedded image. Also, the developer can't open the diagram in the standalone Apollon editor through the embedding. Therefore, the developer would have to find the diagram, load it into Apollon, modify it, save it, and update the embedding. If the developer can't find the diagram, they will have to recreate it. This process is cumbersome with a lot of friction and can lead to outdated diagram embeddings, which is counter-productive.
+\
 
-*Version management*:
-Currently, users can't track changes made to diagrams and feedback is not linked to a specific version, which makes it more difficult to collaborate and engage in a feedback loop. There is no way to revert to previous versions. If a developer wants to create another version of the diagram, the only way would be to import the diagram into a new file. 
+#par(first-line-indent: 0em)[*Embedding capabilities:*]
+#par(first-line-indent: 0em)[
+  For example, if a developer wants to embed an Apollon diagram into an issue or pull request, they need to use a PNG export of the diagram. Should the diagram be updated, this won't be reflected on the embedded image. Also, the developer can't open the diagram in the standalone Apollon editor through the embedding. Therefore, the developer would have to find the diagram, load it into Apollon, modify it, save it, and update the embedding. If the developer can't find the diagram, they will have to recreate it. This process is cumbersome with a lot of friction and can lead to outdated diagram embeddings, which is counter-productive.
+]
 
-*Local IDE integration:*
-Developers are unable to use Apollon within their IDEs such as VSCode or IntelliJ, limiting the efficiency of incorporating UML diagrams into their development processes and documentation. Instead, they have to leave their development environment to use Apollon from their web browser, which presents additional friction.
+\
+\
+
+#par(first-line-indent: 0em)[*Version management:*]
+#par(first-line-indent: 0em)[
+  Currently, users can't track changes made to diagrams and feedback is not linked to a specific version, which makes it more difficult to collaborate and engage in a feedback loop. There is no way to revert to previous versions. If a developer wants to create another version of the diagram, the only way would be to import the diagram into a new file.
+]
+
+\
+
+#par(first-line-indent: 0em)[*Local IDE integration:*]
+#par(first-line-indent: 0em)[
+  Developers are unable to use Apollon within their IDEs such as VSCode or IntelliJ, limiting the efficiency of incorporating UML diagrams into their development processes and documentation. Instead, they have to leave their development environment to use Apollon from their web browser, which presents additional friction.
+]
 
 == Motivation
 Enabling developers to embed their Apollon diagrams with live updates in issues and pull requests would motivate them to do so, displacing the cumbersome process of maintaining an exported image of the diagram.
@@ -27,25 +40,23 @@ Integrating Apollon with an IDE such as VSCode or IntelliJ would improve the dev
 Improving Apollon in these regards is a big step in making it a viable tool for the industry, as modern textual UML notations either lack a state-of-the-art editing environment, diagram types or export/import options @uml-textual-representation.
 
 == Objectives
-#TODO[
-  Describe the research goals and/or research questions and how you address them by summarizing what you want to achieve in your thesis, e.g. developing a system and then evaluating it.
+We aim to implement version management in the standalone Apollon editor. This will open the door for the implementation of the embedding feature for Git issues and pull requests, such that the embedding displays the newest version of a diagram.
 
-  Refine this after finishing requirements analysis and system design. If you did the evaluation, you should mention it here.
-]
+We will also design an Apollon VSCode extension to provide users with an IDE integration, which supports the workflow of maintaining documentation that contains Apollon UML diagrams.
 
-The overarching objective is to motivate developers and students to use Apollon for their UML modeling needs. We will do this by adding version management and a diagram embedding feature for Git pull requests and issues to the standalone Apollon editor. We will also develop a VSCode extension, to support a local IDE integration of the Apollon editor.
-
-With version management in the standalone Apollon editor, it will be possible to:
-- Publish new versions of a diagram with their respective title and description.
-- Edit the title and description of published versions.
-- Delete published versions.
-- Preview and restore published versions.
-
-Besides existing sharing options in the standalone Apollon editor, users will be able to embed their diagrams in Git pull requests and issues. The embedded diagrams will always display the latest published version.
-
-Developers will be able to use the Apollon editor directly in their VSCode IDE with the extension. Newly created diagrams from the extension will be of the #emph[.apollon] file type, and the extension will be able to load diagrams from such files. The extension will associate this file type with the JSON type, ensuring compatibility with the standalone Apollon editor, which saves and imports diagrams with the JSON type.
+In the end, we will conduct a survey to evaluate the results of our work and find out which other areas of Apollon need improvement, as guidelines for future work.
 
 == Outline
-#TODO[
-  Describe the outline of your thesis
-]
+We have started by introducing the problems, then moved on to motivate and shortly explain solutions to these problems, which this thesis aims to implement.
+
+In the next chapter, we will dive into technologies and concepts that are crucial for the understanding of our proposed solutions.
+
+Subsequently, we will investigate related work, that is, other tools and their approaches to solve the mentioned problems. We will discuss why solving these problems in Apollon is necessary despite other alternatives.
+
+The following chapter deals with the requirements analysis of our proposed work. The requirements analysis consists of functional and nonfunctional requirements, scenarios, use cases, the analysis object model and the dynamic model.
+
+Based on the requirements analysis, we will delve into the system design. This includes our design goals, subsystem decomposition and persistent data management.
+
+The next chapter describes the survey we will conduct in order to evaluate the results of our work and address other potential deficiencies of Apollon. We will discuss the results and findings of the survey.
+
+Finally, we will conclude with a summary, the status of our work and possible future work.
