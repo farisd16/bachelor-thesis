@@ -40,7 +40,7 @@ This subsection defines the functional requirements (FRs) of our work. Functiona
 - FR2.4 *Export Diagram*: The user can export the state of the diagram from the Apollon modeling editor for embedding purposes.
 - FR2.5 *Draft Diagram*: The user can create diagrams using a textual syntax. The extension is able to convert such syntax to a _.apollon_ file.
 
-=== Nonfunctional Requirements
+=== Nonfunctional Requirements <nonfunctional-requirements>
 This subsection defines the nonfunctional requirements (NFRs) of our work. Nonfunctional requirements describe aspects of the system that are not directly related to the functional behavior of the system. They include a broad variety of requirements that apply to many different aspects of the system, from usability to performance @bruegge2004object.
 
 \
@@ -51,7 +51,9 @@ This subsection defines the nonfunctional requirements (NFRs) of our work. Nonfu
 
 - NFR3 *Reliability*: The embedding in an issue/pull request should always display the newest version of the diagram.
 
-- NFR4 *Portability*: The Apollon VSCode extension should also be available for VSCodium #footnote[https://vscodium.com/]. 
+- NFR4 *Adaptability*: Users that created diagrams before the introduction of version management in the standalone Apollon editor should be able to continue working on them.
+
+- NFR5 *Portability*: The Apollon VSCode extension should also be available for VSCodium #footnote[https://vscodium.com/]. 
 
 == System Models
 This section showcases models that visualize our system's functionality, structure, behavior and user interaction. We will examine detailed scenarios, the use case model, the Analysis Object Model, a dynamic model and UI mockups.
@@ -62,7 +64,9 @@ The following subsection displays a set of scenarios which depict practical inte
 \
 
 #par(first-line-indent: 0em)[*Scenario 1: Embedding a Diagram in a Pull Request*]
-Felix, a developer that works on Artemis, has implemented a new feature and would like to create a pull request. In order to visualize the changes to the system his new feature has made, he intends on creating a UML diagram and embedding it in his pull request.
+#par(first-line-indent: 0em)[
+  Felix, a developer that works on Artemis, has implemented a new feature and would like to create a pull request. In order to visualize the changes to the system his new feature has made, he intends on creating a UML diagram and embedding it in his pull request.
+]
 
 Felix opens the standalone Apollon editor in his browser and starts designing his diagram. Once he is done, Felix clicks on the _Share_ item in the navigation bar of the editor, and selects the _Embed_ option. The editor has copied the embedding link to his clipboard. He then proceeds to open the pull request, and pastes the embedding. Now, the latest version of Felix's diagram is visible in the pull request.
 
@@ -71,7 +75,9 @@ Max, another developer, requests changes on the pull request. Due to these chang
 \
 
 #par(first-line-indent: 0em)[*Scenario 2: Embedding a Diagram in Documentation*]
-Bob, a developer who is working with his team on building software, has made changes and therefore needs to update the documentation. In order to visualize the system properly, he wants do embed a UML diagram in the documentation.
+#par(first-line-indent: 0em)[
+  Bob, a developer who is working with his team on building software, has made changes and therefore needs to update the documentation. In order to visualize the system properly, he wants do embed a UML diagram in the documentation.
+]
 
 Bob downloads the Apollon extension for VSCode, and then clicks on Apollon's icon in the activity bar. After the sidebar of the extension pops up, he types in the name of the diagram in the input field for the _New diagram name_, selects the type of the new diagram from a dropdown, and clicks on the _Create new diagram_ button. The extension creates a _.apollon_ file for his diagram, and opens the Apollon editor. Once Bob is done modeling his diagram, he clicks on the _Save_ button in the editor to save his changes in the _.apollon_ file, and finally clicks the _Export_ button, to export his diagram as an SVG file, which he embeds in the documentation.
 
@@ -80,7 +86,9 @@ The diagram is now being versioned as part of the Git repository. After some tim
 \
 
 #par(first-line-indent: 0em)[*Scenario 3: Drafting a Diagram (Visionary)*]
-Eve, a developer, is in a rush, and would like to create a UML diagram as soon as possible as part of her changes to documentation. She has already downloaded the Apollon VSCode extension, so she creates a file _diagram.apollon.draft_, and using Apollon's textual syntax, creates a UML diagram with text. She opens this diagram in the modeling editor by clicking the _Load diagram_ button in the extension sidebar, sees that she likes it, and exports it as an SVG in order to use it for her documentation. Finally Eve creates a pull request with her changes.
+#par(first-line-indent: 0em)[
+  Eve, a developer, is in a rush, and would like to create a UML diagram as soon as possible as part of her changes to documentation. She has already downloaded the Apollon VSCode extension, so she creates a file _diagram.apollon.draft_, and using Apollon's textual syntax, creates a UML diagram with text. She opens this diagram in the modeling editor by clicking the _Load diagram_ button in the extension sidebar, sees that she likes it, and exports it as an SVG in order to use it for her documentation. Finally Eve creates a pull request with her changes.
+]
 
 Adam, another developer working with Eve, decides to review the pull request. He is also familiar with Apollon's syntax, and just by looking at Eve's _diagram.apollon.draft_, he can understand how the diagram looks. Adam approves the pull request.
 
