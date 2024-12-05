@@ -6,7 +6,7 @@ The overarching objective is to motivate developers and students to use Apollon 
 @analysis-object-model illustrates an Analysis Object Model of the proposed work.
 
 #figure(
-  image("/figures/analysis-object-model.png", fit: "cover"),
+  image("/figures/proposal/analysis-object-model.png", fit: "cover"),
   caption: [Analysis Object Model of implementing version control in Apollon, integrating Apollon diagrams with a Git hosting service and an IDE],
 ) <analysis-object-model>
 
@@ -22,7 +22,7 @@ The Export dropdown in Apollon will have a new item, allowing a user to export a
 The user may also choose to export another link, which redirects to Apollon, where collaborators can make further changes to the diagram. The user will be able to choose whether collaborators need to authenticate or not, for example with a service such as GitHub. This will especially be convenient in an issue/pull request setting. Moreover, the user may choose to synchronize feedback from the Git hosting service with feedback on Apollon. @git-integration illustrates the proposed integration with a Git hosting service.
 
 #figure(
-  image("/figures/git-integration.png", fit: "cover"),
+  image("/figures/proposal/git-integration.png", fit: "cover"),
   caption: [High-level workflow of using an Apollon diagram in an issue/pull request.],
 ) <git-integration>
 
@@ -37,6 +37,6 @@ The extension will be able to generate metadata from the structured layout, and 
 Versioning the diagram with Git is suitable for developers who wish to use Apollon diagrams in documentation that is part of their repository. In order to fully streamline integration of Apollon diagrams in documentation, we will develop a plugin for Sphinx#footnote[https://www.sphinx-doc.org/], a documentation tool, which will allow a developer to directly embed an Apollon file, without needing to manually convert it to PNG/SVG. @docs-integration illustrates the proposed integration with VSCode.
 
 #figure(
-  image("/figures/docs-integration.png", fit: "cover"),
+  image("/figures/proposal/docs-integration.png", fit: "cover"),
   caption: [High-level workflow of generating a Apollon diagram with a VSCode extension and structured format. The diagram can be embedded in documentation.],
 ) <docs-integration>
