@@ -16,7 +16,7 @@ The goal is to take steps forward in the direction of making Apollon a viable to
 
 This section delves into the functional and nonfunctional requirements of the proposed work, in order to lay foundations for the design and implementation of the project. 
 
-=== Functional Requirements
+=== Functional Requirements <functional-requirements>
 This subsection defines the functional requirements (FRs) of our work. Functional requirements describe the interactions between the system and its environment independent of its implementation @bruegge2004object. We can use them to ensure that the designed system posseses the intended functionality.
 
 \

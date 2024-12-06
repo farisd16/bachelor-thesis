@@ -12,7 +12,7 @@ Apollon is a feature-rich UML editor, as it supports a great variety of diagram 
 
 #par(first-line-indent: 0em)[*Embedding capabilities:*]
 #par(first-line-indent: 0em)[
-  For example, if a developer wants to embed an Apollon diagram into an issue or pull request, they need to use a PNG export of the diagram. Should the diagram be updated, this won't be reflected on the embedded image. Also, the developer can't open the diagram in the standalone Apollon editor through the embedding. Therefore, the developer would have to find the diagram, load it into Apollon, modify it, save it, and update the embedding. If the developer can't find the diagram, they will have to recreate it. This process is cumbersome with a lot of friction and can lead to outdated diagram embeddings, which is counter-productive.
+  For example, if a developer wants to embed an Apollon diagram into an issue or pull request, they need to use a PNG export of the diagram. Should the diagram be updated, this will not be reflected on the embedded image. Also, the developer can not open the diagram in the standalone Apollon editor through the embedding. Therefore, the developer would have to find the diagram, load it into Apollon, modify it, save it, and update the embedding. If the developer can not find the diagram, they will have to recreate it. This process is cumbersome with a lot of friction and can lead to outdated diagram embeddings, which is counter-productive.
 ]
 
 \
@@ -20,7 +20,7 @@ Apollon is a feature-rich UML editor, as it supports a great variety of diagram 
 
 #par(first-line-indent: 0em)[*Version management:*]
 #par(first-line-indent: 0em)[
-  Currently, users can't track changes made to diagrams and feedback is not linked to a specific version, which makes it more difficult to collaborate and engage in a feedback loop. There is no way to revert to previous versions. If a developer wants to create another version of the diagram, the only way would be to import the diagram into a new file.
+  Currently, users can not track changes made to diagrams and feedback is not linked to a specific version, which makes it more difficult to collaborate and engage in a feedback loop. There is no way to revert to previous versions. If a developer wants to create another version of the diagram, the only way would be to import the diagram into a new file.
 ]
 
 \

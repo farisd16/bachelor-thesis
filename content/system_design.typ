@@ -26,14 +26,14 @@ Using non-functional requirements derived in @nonfunctional-requirements, this s
 
 #par(first-line-indent: 0em)[*Modifiability*]
 #par(first-line-indent: 0em)[
-  The Apollon VSCode extension simply imports and makes use of the Apollon library #footnote[https://www.npmjs.com/package/@ls1intum/apollon] in order to provide users with a UML modeling editor. As long as the API which the library provides remains the same, changes in Apollon shouldn't cause breaking changes for the Apollon VSCode extension. This results in easy modifiability of the Apollon library.
+  The Apollon VSCode extension simply imports and makes use of the Apollon library #footnote[https://www.npmjs.com/package/@ls1intum/apollon] in order to provide users with a UML modeling editor. As long as the API which the library provides remains the same, changes in Apollon should not cause breaking changes for the Apollon VSCode extension. This results in easy modifiability of the Apollon library.
 ]
 
 \
 
 #par(first-line-indent: 0em)[*Usability*]
 #par(first-line-indent: 0em)[
-  One of the key usability features of the standalone Apollon editor is that it doesn't require any authentication from the user. This results in very quick onboarding and reduces the amount of time a user needs in order to create their diagram. With the introduction of version management and embedding features, we have made sure that this remains unchanged in order to ensure usability.
+  One of the key usability features of the standalone Apollon editor is that it does not require any authentication from the user. This results in very quick onboarding and reduces the amount of time a user needs in order to create their diagram. With the introduction of version management and embedding features, we have made sure that this remains unchanged in order to ensure usability.
 ]
 
 \
