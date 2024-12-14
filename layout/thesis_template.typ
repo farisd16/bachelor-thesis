@@ -142,10 +142,10 @@
     target: figure.where(kind: table)
   )
 
-  // Appendix.
-  pagebreak()
-  heading(numbering: none)[Appendix A: Supplementary Material]
-  include("/layout/appendix.typ")
+  // // Appendix.
+  // pagebreak()
+  // heading(numbering: none)[Appendix A: Supplementary Material]
+  // include("/layout/appendix.typ")
 
   pagebreak()
   bibliography("/thesis.bib")

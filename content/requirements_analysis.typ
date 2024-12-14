@@ -28,8 +28,8 @@ This subsection defines the functional requirements (FRs) of our work. Functiona
 - FR1.4 *Preview Version*: The user can preview existing versions of their diagram.
 - FR1.5 *Restore Version*: The user can restore an existing version of their diagram while previewing it.
 - FR1.6 *See Versions*: The user can see a list of existing versions of their diagram, each version having a title and description.
-- FR1.7 *Embed Diagram*: The user can embed their diagram in a Git issue/pull request. The embedding always displays the newest version of the diagram.
-- FR1.8 *Collaborate on Diagram*: After the diagram is embedded in a Git issue/pull request, authorized collaborators can open the embedded diagram in the standalone Apollon editor and make changes.
+- FR1.7 *Embed Diagram*: The user can embed their diagram in a GitHub issue/pull request. The embedding always displays the newest version of the diagram.
+- FR1.8 *Collaborate on Diagram*: After the diagram is embedded in a GitHub issue/pull request, authorized collaborators can open the embedded diagram in the standalone Apollon editor and make changes.
 
 \
 
@@ -157,7 +157,7 @@ The component for version management in the standalone Apollon editor lies in th
 
 In the top right corner of the sidebar is a "+" button, used for creating new versions. Below is the list of versions, ordered chronologically. For example, this diagram has three versions. At the top is the unpublished version, which presents the latest state of the diagram. Then follow the published versions, each with a title, an optional description and time stamp of publishing. Under this version information are buttons for editing the version's information, deleting it and previewing it. In case a diagram version is being previewed, this will be indicated by a filled circle to the left of the version, and the buttons "Exit preview" and "Restore version" will appear.
 
-In order to embed a diagram in a Git issue/pull request, the user clicks on the _Share_ navigation bar item, which triggers the Share modal, displayed in @share-modal-embed. In order to embed the diagram, the user clicks on the _Embed_ option, after which the embedding link is copied to their clipboard. In case the _Embed_ option was previously selected, a textarea with the embedding link is displayed in the Share modal, as shown in @share-modal-embed.
+In order to embed a diagram in a GitHub issue/pull request, the user clicks on the _Share_ navigation bar item, which triggers the Share modal, displayed in @share-modal-embed. In order to embed the diagram, the user clicks on the _Embed_ option, after which the embedding link is copied to their clipboard. In case the _Embed_ option was previously selected, a textarea with the embedding link is displayed in the Share modal, as shown in @share-modal-embed.
 
 #figure(
   image("/figures/user-interface/share-modal-embed.png"),

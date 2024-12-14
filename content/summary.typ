@@ -47,10 +47,13 @@ In order to express the status, we will list functional requirements from @funct
   caption: [Status of our functional requirements]
 ) <fr-status>
 
+\
+\
+
 === Realized Goals
 #par(first-line-indent: 0em)[*Standalone Apollon Editor*]
 #par(first-line-indent: 0em)[
-  With the version management sidebar users are able to see, create, delete, edit, preview and restore versions (FR1.1 - 1.6). The user is also able to get the diagram embedding link for Git issues and pull requests by clicking on the _Embed_ option in the Share modal (FR1.7). 
+  With the version management sidebar users are able to see, create, delete, edit, preview and restore versions (FR1.1 - 1.6). The user is also able to get the diagram embedding link for GitHub issues and pull requests by clicking on the _Embed_ option in the Share modal (FR1.7). 
 ]
 
 #par(first-line-indent: 0em)[*Apollon VSCode Extension*]
@@ -59,16 +62,18 @@ In order to express the status, we will list functional requirements from @funct
 ]
 
 === Open Goals
-Due to time constraints, we could not implement GitHub authentication in the standalone Apollon editor to support iterative collaboration on a diagram in a Git issue/pull request setting (FR1.8). This would enable the creator of the diagram to allow certain collaborators to publish new versions of the embedded diagram in order to address issues. Currently, collaborators are only able to edit a copy of the embedded diagram.
+Due to time constraints, we could not implement GitHub authentication in the standalone Apollon editor to support iterative collaboration on a diagram in a GitHub issue/pull request setting (FR1.8). This would enable the creator of the diagram to allow certain collaborators to publish new versions of the embedded diagram in order to address issues. Currently, collaborators are only able to edit a copy of the embedded diagram.
 
 The limited time frame also prevented us from implementing the Apollon markdown syntax for diagrams, which would enable users to draft diagrams with text in the Apollon VScode extension (FR2.5).
 
 == Conclusion
-#TODO[
-  Recap shortly which problem you solved in your thesis and discuss your *contributions* here.
-]
+Through version management and embedding capabilities, this thesis has established an integration of the standalone Apollon editor with Git hosting services such as GitHub, which alleviates the workflow of utilizing UML diagrams in pull requests and issues. It is possible to embed a diagram by pasting a link into a pull request or issue, and then further update it from the standalone Apollon editor by publishing a new version. Version management will also facilitate long term development of a diagram, by providing developers a timeline of versions, and the ability to delete, preview, restore and edit versions.
+
+The VSCode extension helps developers use Apollon diagrams in their documentation, by providing a modelling editor directly in the IDE, as well as saving and exporting capabilities to version diagrams with Git and embed in documentation.
 
 == Future Work
-#TODO[
-  Tell us the next steps (that you would do if you have more time). Be creative, visionary and open-minded here.
-]
+Due to time constraints, two functional requirements have not been fullfiled. This subsection highlights them and explains what they entail.
+
+One of the unfullfilled functional requirements is _Collaborate on Diagram_ (FR 1.8). This would allow developers to create a list of authorized users to collaborate on version management of a diagram when exporting it for embedding purposes. In a pull request or issue, there would be a link for collaborating below the embedded diagram. After clicking the link, collaborators would authenticate with GitHub to prove they are authorized, and would then gain access to the version management of the diagram. This would allow for easier and smoother collaboration. 
+
+The other unfullfilled functional requirement is _Draft Diagram_ (FR 2.5). Developers would be able to create diagrams using a text syntax inspired by PlantUML. The VSCode extension could convert diagrams from this format to the existing Apollon JSON format, so that they are editable in the Apollon editor. Diagrams in such a text syntax would be readable by humans, so reviewers would be able to understand changes in a pull request. Such a syntax would also be readable by LLMs, opening doors to further opportunities.

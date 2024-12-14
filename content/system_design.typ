@@ -6,7 +6,7 @@ In this chapter we delve into System design for our new standalone Apollon edito
 == Overview
 The standalone Apollon editor, a web application, is comprised of a server and client. It is designed to provide an intuitive and collaborative UML modeling editor.
 
-The server side is implemented with Express.js #footnote[https://expressjs.com/], a JavaScript framework used for building Node.js #footnote[https://nodejs.org/] RESTful APIs. The server provides means to share diagrams, orchestrates collaboration and offers an endpoint which returns an SVG image of the latest version of a diagram, making diagram embedding in Git issues/pull requests possible.
+The server side is implemented with Express.js #footnote[https://expressjs.com/], a JavaScript framework used for building Node.js #footnote[https://nodejs.org/] RESTful APIs. The server provides means to share diagrams, orchestrates collaboration and offers an endpoint which returns an SVG image of the latest version of a diagram, making diagram embedding in GitHub issues/pull requests possible.
 
 The client side is powered by React #footnote[https://react.dev/], a JavaScript library used to design web and native user interfaces. The client serves the users an interactive interface for modeling UML diagrams of various types, sharing, exporting and importing diagrams.
 

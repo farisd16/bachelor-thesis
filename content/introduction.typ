@@ -1,7 +1,7 @@
 #import "/utils/todo.typ": TODO
 
 = Introduction
-The Unified Modeling Language (UML) has become one of the most widely used standards for specifying and documenting information systems @uml-introduction. Developers use UML diagrams to visualize the structure or behavior of a system, playing a crucial role in software engineering workflows. Most importantly, UML diagrams help developers share a common understanding of the ongoing work @software-engineering. Such diagrams are therefore useful in issues, pull requests and documentation.
+The Unified Modeling Language (UML) has become one of the most widely used standards for specifying and documenting information systems @uml-introduction. Developers use UML diagrams to visualize the structure or behavior of a system, playing a important role in software engineering workflows. Most importantly, UML diagrams help developers share a common understanding of the ongoing work @software-engineering. Such diagrams are therefore useful in issues, pull requests and documentation.
 
 Apollon #footnote[https://github.com/ls1intum/Apollon] is a web-based UML editor, developed at TUM, that allows users to create, edit, and share UML diagrams. It is possible to integrate Apollon with other JavaScript applications, such as the interactive learning platform Artemis, but it can also be used through the standalone version @interactive-learning.
 
@@ -33,30 +33,26 @@ Apollon is a feature-rich UML editor, as it supports a great variety of diagram 
 == Motivation
 Enabling developers to embed their Apollon diagrams with live updates in issues and pull requests would motivate them to do so, displacing the cumbersome process of maintaining an exported image of the diagram.
 
-Considering that UML modeling is a collaborative activity and plays an important role in the software evolution of model-driven development, version management of diagrams is crucial for projects that utilize Apollon for creating and maintaining UML models @software-engineering @model-driven-development. Specifically, implementing version management for Apollon would encourage the feedback loop and dissolve the need to create a new file for each version of a diagram. Hence using Apollon as part of model-driven development would become easier.
+Considering that UML modeling is a collaborative activity and plays an important role in the software evolution of model-driven development, version management of diagrams is important for projects that utilize Apollon for creating and maintaining UML models @software-engineering @model-driven-development. Specifically, implementing version management for Apollon would encourage the feedback loop and dissolve the need to create a new file for each version of a diagram. Hence using Apollon as part of model-driven development would become easier.
 
 Integrating Apollon with an IDE such as VSCode or IntelliJ would improve the development workflow by eliminating the need to leave the IDE in order to create diagrams. This directly provides a more convenient setting to create diagrams for documentation purposes, since diagrams can be versioned with Git.
 
 Improving Apollon in these regards is a big step in making it a viable tool for the industry, as modern textual UML notations either lack a state-of-the-art editing environment, diagram types or export/import options @uml-textual-representation.
 
 == Objectives
-We aim to implement version management in the standalone Apollon editor. This will open the door for the implementation of the embedding feature for Git issues and pull requests, such that the embedding displays the newest version of a diagram.
+We aim to implement version management in the standalone Apollon editor. This will open the door for the implementation of the embedding feature for GitHub issues and pull requests, such that the embedding displays the newest version of a diagram.
 
 We will also design an Apollon VSCode extension to provide users with an IDE integration, which supports the workflow of maintaining documentation that contains Apollon UML diagrams.
-
-In the end, we will conduct a survey to evaluate the results of our work and find out which other areas of Apollon need improvement, as guidelines for future work.
 
 == Outline
 We have started by introducing the problems, then moved on to motivate and shortly explain solutions to these problems, which this thesis aims to implement.
 
-In the next chapter, we will dive into technologies and concepts that are crucial for the understanding of our proposed solutions.
+In the next chapter, we will dive into technologies and concepts that are important for the understanding of our proposed solutions.
 
 Subsequently, we will investigate related work, that is, other tools and their approaches to solve the mentioned problems. We will discuss why solving these problems in Apollon is necessary despite other alternatives.
 
 The following chapter deals with the requirements analysis of our proposed work. The requirements analysis consists of functional and nonfunctional requirements, scenarios, use cases, the analysis object model and the dynamic model.
 
 Based on the requirements analysis, we will delve into the system design. This includes our design goals, subsystem decomposition and persistent data management.
-
-The next chapter describes the survey we will conduct in order to evaluate the results of our work and address other potential deficiencies of Apollon. We will discuss the results and findings of the survey.
 
 Finally, we will conclude with a summary, the status of our work and possible future work.
