@@ -29,7 +29,7 @@ This subsection defines the functional requirements (FRs) of our work. Functiona
 - FR1.5 *Restore Version*: The user can restore an existing version of their diagram while previewing it.
 - FR1.6 *See Versions*: The user can see a list of existing versions of their diagram, each version having a title and description.
 - FR1.7 *Embed Diagram*: The user can embed their diagram in a GitHub issue/pull request. The embedding always displays the newest version of the diagram.
-- FR1.8 *Collaborate on Diagram*: After the diagram is embedded in a GitHub issue/pull request, authorized collaborators can open the embedded diagram in the standalone Apollon editor and make changes.
+- FR1.8 *Long-term Collaboration*: After the diagram is embedded in a GitHub issue/pull request, authorized collaborators can open the embedded diagram in the standalone Apollon editor and make changes.
 
 \
 

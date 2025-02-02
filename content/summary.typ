@@ -29,7 +29,7 @@ In order to express the status, we will list functional requirements from @funct
     [#filled_circle],
     [FR1.7 Embed Diagram],
     [#filled_circle],
-    [FR1.8 Collaborate on Diagram],
+    [FR1.8 Long-term Collaboration],
     [#blank_circle],
     [],
     [],
